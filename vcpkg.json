@@ -1,0 +1,17 @@
+{
+  "name": "thinning-test-dependencies",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "opencv4",
+      "default-features": false,
+      "features": [
+        "contrib", 
+        "jpeg",
+        "png"
+      ]
+    }
+  ],
+  "overrides": [],
+  "builtin-baseline": "e79c0d2b5d72eb3063cf32a1f7de1a9cf19930f3"
+}
